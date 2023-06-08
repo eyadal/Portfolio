@@ -4,8 +4,8 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <h1>About Page</h1>
+    <main className='flex flex-col items-center justify-between p-24'>
+      <h1 className='text-4xl py-4'>About Page</h1>
     </main>
   )
 }
